@@ -17,6 +17,7 @@ class Human {
         return $this->birthDate;
     }
 }
+
 $czlowiek = new Human('Pawel','12-11-1992');
 echo 'Imie: '. $czlowiek->wyswietl_imie() .'<br>Data urodzenia: '. $czlowiek->wyswietl_date();
 ?>
